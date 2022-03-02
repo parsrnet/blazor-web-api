@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace bookstoreapp.api.Models.Author;
+
+public class AuthorUpdateDto : BaseDto // int Id
+{
+    [Required]
+    [StringLength(50)]
+    public string FirstName { get; set; }
+
+    [Required]
+    [StringLength(50)]
+    public string LastName { get; set; }
+
+    [StringLength(300)]
+    public string? Biography { get; set; }
+}

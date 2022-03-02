@@ -1,0 +1,110 @@
+2022-03-02 07:48:20.380 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 07:48:20.417 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 07:48:20.420 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 07:48:20.420 -08:00 [INF] Hosting environment: Development
+2022-03-02 07:48:20.421 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 07:48:24.878 -08:00 [INF] Made call to Weather Endpoint
+2022-03-02 07:48:24.975 -08:00 [ERR] Fatal error occurred
+System.Exception: This is our logging test exception
+   at bookstoreapp.api.Controllers.WeatherForecastController.Get() in D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\Controllers\WeatherForecastController.cs:line 29
+2022-03-02 07:48:27.536 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our logging test exception
+   at bookstoreapp.api.Controllers.WeatherForecastController.Get() in D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\Controllers\WeatherForecastController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-02 11:50:40.654 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 11:50:40.693 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 11:50:40.697 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 11:50:40.698 -08:00 [INF] Hosting environment: Development
+2022-03-02 11:50:40.698 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 12:27:26.116 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 12:27:26.145 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 12:27:26.147 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 12:27:26.147 -08:00 [INF] Hosting environment: Development
+2022-03-02 12:27:26.148 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:04:48.448 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:04:48.481 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:04:48.484 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:04:48.485 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:04:48.485 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:05:50.225 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:05:50.258 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:05:50.261 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:05:50.262 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:05:50.262 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:06:04.761 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[bookstoreapp.api.Data.Author, bookstoreapp.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[bookstoreapp.api.Models.Author.AuthorReadOnlyDto, bookstoreapp.api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Author -> AuthorReadOnlyDto
+bookstoreapp.api.Data.Author -> bookstoreapp.api.Models.Author.AuthorReadOnlyDto
+   at lambda_method45(Closure , Author , AuthorReadOnlyDto , ResolutionContext )
+   at lambda_method44(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at bookstoreapp.api.Controllers.AuthorsController.GetAuthors() in D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\Controllers\AuthorsController.cs:line 33
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-02 13:07:11.138 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:07:11.167 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:07:11.169 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:07:11.169 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:07:11.169 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:07:31.437 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:07:31.469 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:07:31.472 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:07:31.472 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:07:31.472 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:09:09.856 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:09:09.890 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:09:09.893 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:09:09.893 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:09:09.893 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:10:29.895 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:10:29.931 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:10:29.936 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:10:29.937 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:10:29.937 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
+2022-03-02 13:38:40.625 -08:00 [INF] Now listening on: https://localhost:7174
+2022-03-02 13:38:40.658 -08:00 [INF] Now listening on: http://localhost:5174
+2022-03-02 13:38:40.662 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-02 13:38:40.662 -08:00 [INF] Hosting environment: Development
+2022-03-02 13:38:40.663 -08:00 [INF] Content root path: D:\LocalRepo\test-blazor-web-api\bookstoreapp.api\
